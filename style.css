@@ -1,0 +1,172 @@
+@charset "UTF-8";
+body {
+  font-size: 16px;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #56332b;
+}
+header {
+  width: 1240px;
+  margin: 20px auto 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-size: 32px;
+}
+h1:hover {
+  text-decoration: underline solid 1px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul li {
+  margin: 0 20px;
+}
+header nav ul li a:hover {
+  text-decoration: underline solid 1px;
+}
+.mainvisualDiv {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.mainvisual {
+  width: 1240px;
+}
+#about {
+  width: 1240px;
+  display: flex;
+  gap: 40px;
+  margin: 0 auto 100px;
+  align-items: center;
+}
+.adout-img {
+  width: 500px;
+}
+.about-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.about-text {
+  line-height: 1.8;
+  text-align: center;
+  margin-top: -20px;
+}
+.works {
+  width: 1240px;
+  margin: 0 auto 90px;
+}
+.works h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+.worksdiv {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+.works-img {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+}
+.warks-btn {
+  text-align: center;
+}
+.works-button {
+  text-align: center;
+  background-color: rgba(194, 247, 255, 0.5);
+  padding: 18px 80px;
+}
+.works-button:hover {
+  text-decoration: underline solid 1px;
+}
+#contact {
+  text-align: center;
+}
+#contact h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+form {
+  width: 600px;
+  margin: 0 auto;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 1px solid #56332b;
+  background-color: #ffffff;
+  width: 100%;
+  margin-top: 5px;
+  padding: 4px 8px;
+}
+textarea {
+  height: 148px;
+  margin-bottom: 30px;
+}
+form > p {
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+.submitBtn {
+  text-align: center;
+}
+input[type="submit"] {
+  background-color: rgba(194, 247, 255, 0.5);
+  padding: 14px 100px;
+  margin-bottom: 5px;
+}
+input[type="submit"]:hover {
+  text-decoration: underline solid 1px;
+}
+.TOP {
+  display: block;
+  width: 1240px;
+  margin: 100px auto 50px;
+}
+.TOP:hover {
+  text-decoration: underline solid 1px;
+}
+footer {
+  text-align: center;
+  padding: 14px 10px 20px;
+}
+.works-heading {
+  background-color: rgba(194, 247, 255, 0.5);
+  width: 1240px;
+  text-align: center;
+  padding: 120px 0;
+  margin: 20px auto 100px;
+}
+.works-title {
+  font-size: 80px;
+  font-weight: 400;
+  color: #ffffff;
+  -webkit-text-stroke: 1px #56332b;
+  etter-spacing: 0.05em;
+}
+.works-item {
+  width: 1240px;
+  display: flex;
+  gap: 100px;
+  margin: 0 auto 100px;
+  align-items: center;
+}
+.works-img2 {
+  width: 550px;
+}
+h3 {
+  margin: 50px;
+}
+.works-text {
+  line-height: 1.8;
+  text-align: center;
+  margin-top: -20px;
+}
