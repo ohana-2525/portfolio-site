@@ -41,12 +41,13 @@ header nav ul li a:hover {
   margin: 0 auto 100px;
   align-items: center;
 }
-.adout-img {
-  width: 500px;
+.about-img {
+  width: 420px;
 }
 .about-text h2 {
   font-size: 24px;
   font-weight: bold;
+  letter-spacing: 0.08em;
   margin-bottom: 40px;
 }
 .about-text {
@@ -62,6 +63,7 @@ header nav ul li a:hover {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
+  letter-spacing: 0.08em;
   margin-bottom: 60px;
 }
 .worksdiv {
@@ -92,6 +94,7 @@ header nav ul li a:hover {
 #contact h2 {
   font-size: 24px;
   font-weight: bold;
+  letter-spacing: 0.08em;
   margin-bottom: 60px;
 }
 form {
@@ -131,7 +134,7 @@ input[type="submit"]:hover {
   width: 1240px;
   margin: 100px auto 50px;
 }
-.TOP:hover {
+.top:hover {
   text-decoration: underline solid 1px;
 }
 footer {
